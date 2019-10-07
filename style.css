@@ -1,0 +1,18 @@
+.todos {
+  border: 1px solid black;
+  padding: 10px;
+  width: 50%;
+  margin: 10px 0;
+}
+.todo {
+  width: 100%;
+}
+.todo p {
+  display: inline-block;
+}
+.todo__priority {
+  width: 10%;
+}
+.todo__text {
+  width: 70%;
+}

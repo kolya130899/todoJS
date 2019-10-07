@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TODO</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h1>TODO List</h1>
+      <h2 class="date"></h2>
+      <div class="add-todos">
+        <input
+          type="text"
+          class="add-todos__input"
+          placeholder="What do you need to do?"
+        />
+        <select class="add-todos__priority" name="priority">
+          <option value="High">High</option>
+          <option value="Normal">Normal</option>
+          <option value="Low">Low</option>
+        </select>
+        <button class="add-todos__btn">Add</button>
+      </div>
+      <div class="todos"></div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
